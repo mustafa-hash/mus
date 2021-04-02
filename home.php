@@ -9,10 +9,11 @@ require_once './includes/authheader.php';
         <div id="alert">
             <?php require_once "./feedback.php"; ?>
         </div>
-        <h2>Your Albums</h2>
+        <h2>Marsabit county resource collection </h2><br>
+        <h3> cradle of mankind</h3>
         <div class="row">
-            <?php require_once "./controllers/albums.php";?>
+            <?php require_once "./controllers/createservices.php";?>
         </div>
-        <hr />
+    
     </div>
 <?php require_once "./includes/footer.php"; ?>
